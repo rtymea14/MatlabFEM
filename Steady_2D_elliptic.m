@@ -1,4 +1,5 @@
 %function [error_on_nodes,infinity_norm_error,L2_error,H1_error] = Steady_2D_elliptic(left,right,bottom,top,h,basis_type,Gauss_point_number,bc)
+
 function [error_on_nodes,infinity_norm_error,L2_error,H1_error] = Steady_2D_elliptic(left,right,bottom,top,h,Gauss_point_number,bc)
 
 %obtain necessary parameter
